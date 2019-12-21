@@ -1,0 +1,425 @@
+/* Created By: MohamedHendy
+   Gmail: mohamadhendy14@gmail.com*/
+/* Glopal */ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.78);
+}
+/* Glopal  */
+/* Start Nav */ 
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: rgba(14, 115, 70, 0)!important;
+    padding: 17px 30px;
+    border-bottom: none;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+}
+.navbar-light .navbar-brand:hover{
+    color: #FFF !important;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+    color: #FFF;
+    border: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF !important;
+    font-weight: bold;
+    transition: all .1s ease-in-out;
+    padding: 10px 15px;
+}
+.navbar-light .navbar-brand{
+    color: #FFF;
+    font-weight: bold;
+    transition: all .1s ease-in-out;
+}
+.butone {
+    background-color: #036F59 !important;
+}
+/* End nav */
+/*  Start header */ 
+header {
+    background-image: url("../images/headerimg.jpg");
+    background-size: cover;
+    position: relative;
+    color: #FFF;
+}
+header .header-wh {
+    padding: 100px 0;
+    color: #FFF;
+    position: relative;
+    width: 60%;
+    margin: auto;
+}
+hr{
+    margin-top: -20px!important ;
+}
+header .header-wh h1 {
+    padding: 30px 0;
+}
+header .header-wh .items {
+    padding: 20px;
+}
+header .header-wh input {
+    border: none;
+}
+header .header-wh i{
+    line-height: 100%;
+    background-color: #FFF;
+    color: #333;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    outline: none;
+}
+header .header-wh .items .group-prepend{
+    background-color: #FFF;
+}
+.btn-outline-secondary,.btn-outline-secondary:hover, .btn-outline-secondary:active {
+    color: #3a3939;
+    background-color: #FFF;
+    border-color: #ffffff;
+    border: none;
+}
+header .header-wh .parg {
+    padding: 14px ;
+    color: rgb(182, 175, 175);
+}
+header .header-wh .parg a {
+    color: rgb(182, 175, 175);
+    text-decoration: none;
+}
+header .header-wh .parg a:hover {
+    color: #FFF;
+}
+/* End header */ 
+/* Section 1 */ 
+.section1 {
+    padding: 20px 0;
+}
+.section1 .cont {
+    padding: 5px 2px;
+}
+.allw ,.alls {
+    height: 100%;
+}
+.allw iframe , .swidth iframe {
+    width: 100% ;
+    height: 100%;
+}
+.section1 .cont img , .section1 .md img {
+    width: 100%;
+    height: 100%;
+}
+/* Section 1*/
+/* Footer */ 
+footer {
+    background-color: #242424;
+    line-height:100%;
+    display: flex;
+    align-items: center;
+    color:#FFF;
+}
+footer li {
+    display: inline-block;
+    padding: 20px 10px;
+    color: rgba(255, 255, 255, 0.856) !important;
+    font-weight: bold;
+   
+}
+footer li a:hover{
+    color: #FFF !important;
+    cursor: pointer;
+}
+footer li i {
+    cursor: pointer;
+}
+footer li a i {
+    color: #FFF!important;
+}
+footer li a i.fa-facebook-square:hover{
+    color: #4267B2!important;
+}
+footer li a .fa-linkedin:hover{
+    color: #0077B5 !important;
+}
+footer li .fa-youtube:hover{
+    color: #FF0000 !important;
+}
+footer ul {
+    margin: 0;
+}
+/* Footer */
+/* Login page */
+.log_in {
+    padding: 50px 0;
+}
+.log_in button {
+    font-weight: 500;
+}
+.login {
+    border: 1px solid #DDD;
+    padding: 20px;
+    margin: 30px  auto;
+    width: 50%;
+}
+.logsing{
+    display: flex;
+    justify-content: center;
+    
+}
+.loginitem p {
+    text-align: center;
+    padding: 15px 0;
+}
+ .Kemo {
+    background-color: #2275D7;
+    line-height: 100%;
+    border: none;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+.Kemo  span {
+    padding: 7PX;
+}
+.lkemo{
+    padding: 15px 0 !important;
+    
+}
+.logsing .loo{
+    padding: 10px;
+    font-weight: bold;
+}
+.logsing .loof {
+    color: #2275D7
+}
+.logsing .loof a {
+    color: #2275D7 !important;
+}
+.logsing  hr {
+    background-color: #2275D7;
+}
+.logsing a {
+    color: #000;
+    text-decoration: none;
+}
+.logsing a:hover {
+    color: #2275D7;
+}
+.loginitem label {
+    font-weight: 500;
+}
+.loginitem .lastbutton {
+    background-color: #2275D7;
+    line-height: 100%;
+    border: none;
+    padding: 7px 0;
+}
+.the_lastbutton{
+    background-color: #036F59 !important;
+    line-height: 100%;
+    border: none;
+    padding: 7px 0;
+}
+.loginitem .the_last {
+    padding: 20px 0;
+}
+.loginitem .the_last a {
+    color: rgb(29, 28, 28) !important;
+    text-decoration: underline;
+}
+.theLogin ul {
+    width: 100% !important;
+}
+.theLogin ul form {
+    width: 100% !important;
+}
+.theLogin ul form input {
+    width: 80% !important;
+    border-radius:2px 0 0 2px;
+    border: none;
+}
+.theLogin ul form i{
+    line-height: 100%;
+    background-color: #FFF;
+    color: #333;
+    border: none;
+    font-weight: bold;
+    padding: 11px;
+    outline: none;
+    border-radius:0 2px 2px 0;
+}
+/* Login page */
+/* Registiratio Page */
+.option {
+    font-size: 12px;
+}
+/* Registiration Page */
+/* Media */
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    /* Login */
+    .log_in .row{
+        margin-right: 0;
+    }
+    .login{
+        width: 100%;
+        border: none;
+        margin: 0px auto;
+    }
+    /* Login */
+    /* registiration */
+    .option {
+        font-size: 8px;
+    }
+    /* registiration */
+    /* Header */
+    header .header-wh{
+        width: 93%;
+        padding: 20px 5px;
+    }
+    header .header-wh h1 {
+        font-size: 27px
+    }
+    .parg p {
+        font-size: 13px;
+    }
+    /*Header */
+    /*Footer */
+    .footo ul{
+        float: none !important;
+        text-align: center;
+    }
+    footer li{
+        font-size: 14px;
+
+    }
+    /*Footer*/
+    /* Glopal */
+    .col-sm-12{
+        margin: 5px 0!important;
+    }
+    .swidth{
+        margin: 10px 0 0 !important;
+    }
+    .margg{
+        margin: 10px 0;
+    }
+    /*Glopal */
+ }
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* Login */
+    .login{
+        width: 80%;
+    }
+    /*Login */
+    /* Header */
+    header .header-wh{
+        width: 90%;
+        padding: 25px 5px;
+    }
+    header .header-wh h1 {
+        font-size: 34px
+    }
+    .parg p {
+        font-size: 15px;
+    }
+    /*Header */
+    /*Footer */
+    .footo ul{
+        float: none !important;
+        text-align: center;
+    }
+    footer li{
+        font-size: 14px;
+        
+    }
+    /*Footer*/
+    /* Glopal */
+    .col-sm-12{
+        margin: 5px 0!important;
+    }
+    .swidth{
+        margin: 10px 0 0 !important;
+    }
+    .margg{
+        margin: 10px 0;
+    }
+    /*Glopal */
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .login{
+        width: 70%;
+    }
+    /* Header */
+    header .header-wh{
+        width: 70%;
+        padding: 40px 0;
+    }
+    /*Header */
+    /*Footer */
+    .footo ul{
+        float: none !important;
+        text-align: center;
+    }
+    footer li{
+        font-size: 14px;
+        
+    }
+    footer ul{
+        padding: 20px 0;
+    }
+    /*Footer*/
+    /* Section */ 
+    .allw .firs {
+        padding-bottom: 8px;
+    }
+    /* Section */
+ }
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .login{
+        width: 60%;
+    }
+    /*Footer*/
+    footer ul{
+        padding: 15px 0;
+    }
+    /*Footer*/
+    /* Header */
+    header .header-wh{
+        width: 65%;
+    }
+    /*Header */
+    /* Section */ 
+    .allw .firs {
+        padding-bottom: 8px;
+    }
+    /* Section */
+ }
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    /*Footer*/
+    footer ul{
+        padding: 20px 0 0;
+    }
+    /*Footer*/
+    /* Section */ 
+    .allw .firs {
+        padding-bottom: 8px;
+    }
+    /* Section */
+ }
